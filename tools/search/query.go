@@ -123,6 +123,11 @@ func otherSql(driver string, t *resolveSearchTag, condition Condition, qValue re
 			t.On[1],
 		))
 		ResolveSearchQuery(driver, qValue.Field(i).Interface(), join)
+	case "fulltext":
+		condition.SetWhere(
+			fmt.Sprintf("MATCH(`%s`.`%s`) AGAINST(? IN NATURAL LANGUAGE MODE)", t.Table, t.Column),
+			[]interface{}{qValue.Field(i).String()},
+		)
 	case "exact", "iexact":
 		condition.SetWhere(fmt.Sprintf("`%s`.`%s` = ?", t.Table, t.Column), []interface{}{qValue.Field(i).Interface()})
 	case "contains", "icontains":
