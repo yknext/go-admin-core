@@ -2,6 +2,7 @@ package queue
 
 import (
 	"fmt"
+	"github.com/go-admin-team/redisqueue/v2"
 	"log"
 	"sync"
 	"testing"

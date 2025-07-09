@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"sync"
 
+	"github.com/casbin/casbin/v2"
 	"github.com/go-admin-team/go-admin-core/logger"
 	"github.com/go-admin-team/go-admin-core/storage"
 	"github.com/go-admin-team/go-admin-core/storage/queue"

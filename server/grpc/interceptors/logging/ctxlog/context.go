@@ -3,6 +3,8 @@ package ctxlog
 import (
 	"context"
 	"github.com/go-admin-team/go-admin-core/logger"
+
+	"github.com/grpc-ecosystem/go-grpc-middleware/tags"
 )
 
 type ctxMarker struct{}
