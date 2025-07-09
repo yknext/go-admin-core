@@ -6,14 +6,14 @@ import (
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/log"
 	"github.com/casbin/casbin/v2/model"
-	"github.com/go-admin-team/go-admin-core/logger"
-	"github.com/go-admin-team/go-admin-core/sdk"
-	"github.com/go-admin-team/go-admin-core/sdk/config"
-	redisWatcher "github.com/go-admin-team/redis-watcher/v2"
 	"github.com/redis/go-redis/v9"
+	"github.com/yknext/go-admin-core/logger"
+	"github.com/yknext/go-admin-core/sdk"
+	"github.com/yknext/go-admin-core/sdk/config"
+	redisWatcher "github.com/yknext/redis-watcher/v2"
 	"gorm.io/gorm"
 
-	gormAdapter "github.com/go-admin-team/gorm-adapter/v3"
+	gormAdapter "github.com/yknext/gorm-adapter/v3"
 )
 
 // Initialize the model from a string.

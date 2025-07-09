@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/go-admin-team/go-admin-core/storage"
-	"github.com/go-admin-team/go-admin-core/storage/locker"
 	"github.com/redis/go-redis/v9"
+	"github.com/yknext/go-admin-core/storage"
+	"github.com/yknext/go-admin-core/storage/locker"
 )
 
 var LockerConfig = new(Locker)
