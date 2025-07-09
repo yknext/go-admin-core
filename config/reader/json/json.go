@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"dario.cat/mergo"
-	"github.com/yknext/go-admin-core/config/encoder"
-	"github.com/yknext/go-admin-core/config/encoder/json"
-	"github.com/yknext/go-admin-core/config/reader"
-	"github.com/yknext/go-admin-core/config/source"
+	"github.com/go-admin-team/go-admin-core/config/encoder"
+	"github.com/go-admin-team/go-admin-core/config/encoder/json"
+	"github.com/go-admin-team/go-admin-core/config/reader"
+	"github.com/go-admin-team/go-admin-core/config/source"
 )
 
 const readerTyp = "json"

@@ -1,9 +1,8 @@
 package config
 
 import (
-	"github.com/redis/go-redis/v9"
-	"github.com/yknext/go-admin-core/storage"
-	"github.com/yknext/go-admin-core/storage/queue"
+	"github.com/go-admin-team/go-admin-core/storage"
+	"github.com/go-admin-team/go-admin-core/storage/queue"
 	"time"
 )
 

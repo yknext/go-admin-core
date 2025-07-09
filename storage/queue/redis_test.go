@@ -2,12 +2,11 @@ package queue
 
 import (
 	"fmt"
-	"github.com/redis/go-redis/v9"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/yknext/go-admin-core/storage"
+	"github.com/go-admin-team/go-admin-core/storage"
 )
 
 func TestRedis_Append(t *testing.T) {

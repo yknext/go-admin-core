@@ -12,9 +12,9 @@ import (
 	"net"
 	"net/http"
 
+	log "github.com/go-admin-team/go-admin-core/logger"
+	"github.com/go-admin-team/go-admin-core/server"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	log "github.com/yknext/go-admin-core/logger"
-	"github.com/yknext/go-admin-core/server"
 )
 
 type Server struct {

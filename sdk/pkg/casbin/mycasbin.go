@@ -3,13 +3,11 @@ package mycasbin
 import (
 	"sync"
 
-	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/log"
 	"github.com/casbin/casbin/v2/model"
-	"github.com/redis/go-redis/v9"
-	"github.com/yknext/go-admin-core/logger"
-	"github.com/yknext/go-admin-core/sdk"
-	"github.com/yknext/go-admin-core/sdk/config"
+	"github.com/go-admin-team/go-admin-core/logger"
+	"github.com/go-admin-team/go-admin-core/sdk"
+	"github.com/go-admin-team/go-admin-core/sdk/config"
 	redisWatcher "github.com/yknext/redis-watcher/v2"
 	"gorm.io/gorm"
 

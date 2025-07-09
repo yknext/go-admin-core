@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/yknext/go-admin-core/logger"
+	"github.com/go-admin-team/go-admin-core/logger"
 )
 
 type Options struct {

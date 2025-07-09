@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/yknext/go-admin-core/logger"
+	"github.com/go-admin-team/go-admin-core/logger"
 )
 
 type Server struct {
